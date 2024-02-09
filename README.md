@@ -6,6 +6,8 @@ Below are real-time demonstrations of the object detection system in action:
 
 ![Demo 2](https://github.com/uoRetr0/Zombie-Detector/blob/main/Demo%202.gif)
 
+The above GIFs illustrate the system's ability to accurately and quickly detect zombies in a live gaming environment, showcasing the practical application and performance of the custom-trained YOLOv5 model.
+
 ## Project Description
 This project implements a custom object detection system that operates in real-time on a computer screen. It leverages the robust and efficient YOLOv5 (You Only Look Once version 5) deep learning model for object detection tasks. YOLOv5 is known for its speed and accuracy, making it ideal for real-time applications. This custom system is designed to detect objects directly within the screen space, allowing for a wide range of applications, including surveillance, accessibility features, and live content analysis.
 
@@ -13,6 +15,17 @@ This project implements a custom object detection system that operates in real-t
 - Real-time detection of zombies within the gaming environment
 - Custom trained YOLOv5 model specifically for zombie detection
 - Easy-to-use interface for live in-game object detection
+
+## Training Details
+
+The object detection model provided with this project has been trained on a dataset of 228 images specifically curated to detect zombies within a gaming environment. While the current model achieves a certain level of accuracy with this dataset, the performance of object detection models generally improves with larger and more diverse training datasets.
+
+Included in this repository is the `training` folder, which contains the images and annotations used to train the model. This serves as a starting point for those interested in understanding the training process or looking to further improve the model.
+
+It is worth noting that the more images you use to train your model, and the more varied the images are in terms of angles, lighting conditions, and backgrounds, the better your AI will perform. Expanding the dataset can lead to significant improvements in the model's ability to generalize and detect objects across different scenarios.
+
+For those interested in training their own models, it is highly recommended to collect as many labeled images as possible to achieve the best results.
+
 
 ## Modifications for Windows Compatibility
 The `yolov5-master` folder included in this repository has been slightly modified to work with Windows, based on a solution from [this Stack Overflow thread](https://stackoverflow.com/questions/57286486/i-cant-load-my-model-because-i-cant-put-a-posixpath). For Linux-based systems, these modifications are not needed and the original version of the YOLOv5 should be used. If you are running a Linux system, please ensure to revert these changes or clone the original repository from [YOLOv5 GitHub](https://github.com/ultralytics/yolov5).
