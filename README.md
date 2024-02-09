@@ -1,18 +1,18 @@
 # Custom In-Screen Object Detection Using YOLOv5
-## Preview
 
-Here are some demonstrations of the object detection in action:
-![Demo 1](https://github.com/uoRetr0/Zombie-Detector/blob/main/Demo%201.gif)
+Below are real-time demonstrations of the object detection system in action:
 
-![Demo 2]()
+![Demo 1](https://github.com/uoRetr0/Zombie-Detector/blob/main/Demo%201.gif) 
+
+![Demo 2](https://github.com/uoRetr0/Zombie-Detector/blob/main/Demo%202.gif)
 
 ## Project Description
 This project implements a custom object detection system that operates in real-time on a computer screen. It leverages the robust and efficient YOLOv5 (You Only Look Once version 5) deep learning model for object detection tasks. YOLOv5 is known for its speed and accuracy, making it ideal for real-time applications. This custom system is designed to detect objects directly within the screen space, allowing for a wide range of applications, including surveillance, accessibility features, and live content analysis.
 
 ## Features
-- Real-time object detection on live screen content
-- Custom trained YOLOv5 model for [describe what kinds of objects your model is trained to detect]
-- Easy-to-use interface for running object detection
+- Real-time detection of zombies within the gaming environment
+- Custom trained YOLOv5 model specifically for zombie detection
+- Easy-to-use interface for live in-game object detection
 
 ## Modifications for Windows Compatibility
 The `yolov5-master` folder included in this repository has been slightly modified to work with Windows, based on a solution from [this Stack Overflow thread](https://stackoverflow.com/questions/57286486/i-cant-load-my-model-because-i-cant-put-a-posixpath). For Linux-based systems, these modifications are not needed and the original version of the YOLOv5 should be used. If you are running a Linux system, please ensure to revert these changes or clone the original repository from [YOLOv5 GitHub](https://github.com/ultralytics/yolov5).
