@@ -2,7 +2,7 @@
 ## Preview
 
 Here are some demonstrations of the object detection in action:
-![Demo 1]()
+![Demo 1](https://github.com/uoRetr0/Zombie-Detector/blob/main/Demo%201.gif)
 
 ![Demo 2]()
 
