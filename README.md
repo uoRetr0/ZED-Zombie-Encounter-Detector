@@ -1,4 +1,4 @@
-# Custom In-Screen Object Detection Using YOLOv5
+# Real-Time Custom In-Screen Object Detection Using YOLOv5
 
 Below are real-time demonstrations of the object detection system in action:
 
